@@ -1,0 +1,71 @@
+$schema: ./config_schema.json
+
+Settings:
+  start_date: [1403, 5, 1]
+  concurrency: 5  # Global concurrency limit (default number of threads)
+  base_urls:
+    - url: https://rayanhamafza.com/investment-funds
+      unwanted_urls:
+        - https://rayanhamafza.com/investment-funds#
+      max_threads: 3  # Optional specific concurrency for this base URL
+      task_class : RayanhamafzaFundsURLExtractor
+
+Tasks:
+  - task_name: FundURLs
+    task_class: RayanhamafzaFundsURLExtractor
+    task_type: FundsURLExtractor
+    active: true
+    publish: true
+    persist: true
+    props: {}
+
+  - task_name: FundAssetData
+    task_class: FundAssetDataExtractor
+    task_type: FundsInfoExtractor
+    active: true
+    props: {}
+
+  - task_name: FundProfitData
+    task_class: FundProfitDataExtractor
+    task_type: FundsInfoExtractor
+    active: true
+    props:
+      start_date: [1390, 1, 1]
+
+  - task_name: FundReturnData
+    task_class: FundReturnDataExtractor
+    task_type: FundsInfoExtractor
+    active: true
+    props: {}
+
+  - task_name: FundData
+    task_class: FundDataExtractor
+    task_type: FundsInfoExtractor
+    active: true
+    props: {}
+
+  - task_name: FundChartData
+    task_class: FundChartDataExtractor
+    task_type: FundsInfoExtractor
+    active: true
+    props: {}
+
+DataBase:
+  db_type: mongo  # Specify the type of database (e.g., mongo, mysql)
+  config:
+    MongoDB:
+      db_name: "MutualFundsAnalyzerDB"
+      db_address: "mongodb://localhost:27017/"
+    MySQL:
+      db_name: "MutualFundsDB"
+      db_address: "localhost"
+      user: "root"
+      password: "password"
+
+MessageBroker:
+  mb_type: kafka # Type of the message broker (e.g., kafka, rabbitmq)
+  config:
+    KafkaBroker:
+      bootstrap_servers: "localhost:9092"
+      security_protocol: PLAINTEXT # Example values; update as needed
+      schema_registry_url: "http://localhost:8081"

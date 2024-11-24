@@ -1,0 +1,124 @@
+2024-10-09 14:08:00,976 - INFO - Thread-http://aminsaman.ir - Processing http://aminsaman.ir...
+2024-10-09 14:08:00,976 - INFO - Thread-http://aminsaman.ir - Extracting profit data for http://aminsaman.ir...
+2024-10-09 14:08:00,977 - INFO - Thread-http://aminsaman.ir - ====== WebDriver manager ======
+2024-10-09 14:08:03,021 - INFO - Thread-http://aminsaman.ir - Get LATEST chromedriver version for google-chrome
+2024-10-09 14:08:03,567 - INFO - Thread-http://aminsaman.ir - Get LATEST chromedriver version for google-chrome
+2024-10-09 14:08:03,889 - INFO - Thread-http://aminsaman.ir - Driver [C:\Users\lotus\.wdm\drivers\chromedriver\win64\129.0.6668.91\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-09 14:08:05,683 - INFO - Thread-http://aminsaman.ir - ====== WebDriver manager ======
+2024-10-09 14:08:07,740 - INFO - Thread-http://aminsaman.ir - Get LATEST chromedriver version for google-chrome
+2024-10-09 14:08:08,096 - INFO - Thread-http://aminsaman.ir - Get LATEST chromedriver version for google-chrome
+2024-10-09 14:08:08,409 - INFO - Thread-http://aminsaman.ir - Driver [C:\Users\lotus\.wdm\drivers\chromedriver\win64\129.0.6668.91\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-09 14:08:27,800 - INFO - Thread-http://aminsaman.ir - Processing http://aminsaman.ir...
+2024-10-09 14:08:27,800 - INFO - Thread-http://aminsaman.ir - Extracting profit data for http://aminsaman.ir...
+2024-10-09 14:08:27,800 - INFO - Thread-http://aminsaman.ir - ====== WebDriver manager ======
+2024-10-09 14:08:29,869 - INFO - Thread-http://aminsaman.ir - Get LATEST chromedriver version for google-chrome
+2024-10-09 14:08:30,381 - INFO - Thread-http://aminsaman.ir - Get LATEST chromedriver version for google-chrome
+2024-10-09 14:08:30,854 - INFO - Thread-http://aminsaman.ir - Driver [C:\Users\lotus\.wdm\drivers\chromedriver\win64\129.0.6668.91\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-09 14:08:32,071 - INFO - Thread-http://aminsaman.ir - ====== WebDriver manager ======
+2024-10-09 14:08:34,079 - INFO - Thread-http://aminsaman.ir - Get LATEST chromedriver version for google-chrome
+2024-10-09 14:08:34,485 - INFO - Thread-http://aminsaman.ir - Get LATEST chromedriver version for google-chrome
+2024-10-09 14:08:34,886 - INFO - Thread-http://aminsaman.ir - Driver [C:\Users\lotus\.wdm\drivers\chromedriver\win64\129.0.6668.91\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-09 14:09:18,675 - INFO - Thread-http://aminsaman.ir - Fetching chart data for http://aminsaman.ir...
+2024-10-09 14:09:18,677 - INFO - Thread-http://aminsaman.ir - ====== WebDriver manager ======
+2024-10-09 14:09:22,265 - INFO - Thread-http://aminsaman.ir - Get LATEST chromedriver version for google-chrome
+2024-10-09 14:09:23,067 - INFO - Thread-http://aminsaman.ir - Get LATEST chromedriver version for google-chrome
+2024-10-09 14:09:24,008 - INFO - Thread-http://aminsaman.ir - Driver [C:\Users\lotus\.wdm\drivers\chromedriver\win64\129.0.6668.91\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-09 14:09:34,835 - INFO - Thread-http://aminsaman.ir - Extracting fund data for http://aminsaman.ir...
+2024-10-09 14:09:34,835 - INFO - Thread-http://aminsaman.ir - ====== WebDriver manager ======
+2024-10-09 14:09:37,294 - INFO - Thread-http://aminsaman.ir - Get LATEST chromedriver version for google-chrome
+2024-10-09 14:09:37,740 - INFO - Thread-http://aminsaman.ir - Get LATEST chromedriver version for google-chrome
+2024-10-09 14:09:38,155 - INFO - Thread-http://aminsaman.ir - Driver [C:\Users\lotus\.wdm\drivers\chromedriver\win64\129.0.6668.91\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-09 14:09:39,418 - INFO - Thread-http://aminsaman.ir - ====== WebDriver manager ======
+2024-10-09 14:09:43,319 - INFO - Thread-http://aminsaman.ir - Get LATEST chromedriver version for google-chrome
+2024-10-09 14:09:44,038 - INFO - Thread-http://aminsaman.ir - Get LATEST chromedriver version for google-chrome
+2024-10-09 14:09:44,872 - INFO - Thread-http://aminsaman.ir - Driver [C:\Users\lotus\.wdm\drivers\chromedriver\win64\129.0.6668.91\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-09 14:10:09,487 - INFO - Thread-http://aminsaman.ir - Extracting return data for http://aminsaman.ir...
+2024-10-09 14:10:09,488 - INFO - Thread-http://aminsaman.ir - ====== WebDriver manager ======
+2024-10-09 14:10:11,632 - INFO - Thread-http://aminsaman.ir - Get LATEST chromedriver version for google-chrome
+2024-10-09 14:10:12,061 - INFO - Thread-http://aminsaman.ir - Get LATEST chromedriver version for google-chrome
+2024-10-09 14:10:12,570 - INFO - Thread-http://aminsaman.ir - Driver [C:\Users\lotus\.wdm\drivers\chromedriver\win64\129.0.6668.91\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-09 14:10:50,142 - INFO - MainThread - All data extraction processes completed.
+2024-10-09 14:18:47,318 - INFO - Thread-http://aminsaman.ir - Processing http://aminsaman.ir...
+2024-10-09 14:18:47,318 - INFO - Thread-http://aminsaman.ir - Extracting return data for http://aminsaman.ir...
+2024-10-09 14:18:47,319 - ERROR - Thread-http://aminsaman.ir - An error occurred while processing http://aminsaman.ir: name 'start_year' is not defined
+2024-10-09 14:18:47,319 - INFO - MainThread - All data extraction processes completed.
+2024-10-09 14:19:40,079 - INFO - Thread-http://aminsaman.ir - Processing http://aminsaman.ir...
+2024-10-09 14:19:40,079 - INFO - Thread-http://aminsaman.ir - Extracting return data for http://aminsaman.ir...
+2024-10-09 14:19:40,080 - INFO - Thread-http://aminsaman.ir - ====== WebDriver manager ======
+2024-10-09 14:19:42,219 - INFO - Thread-http://aminsaman.ir - Get LATEST chromedriver version for google-chrome
+2024-10-09 14:19:42,667 - INFO - Thread-http://aminsaman.ir - Get LATEST chromedriver version for google-chrome
+2024-10-09 14:19:43,100 - INFO - Thread-http://aminsaman.ir - Driver [C:\Users\lotus\.wdm\drivers\chromedriver\win64\129.0.6668.91\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-09 14:20:12,079 - INFO - MainThread - All data extraction processes completed.
+2024-10-09 14:21:13,089 - INFO - Thread-http://aminsaman.ir - Processing http://aminsaman.ir...
+2024-10-09 14:21:13,089 - INFO - Thread-http://aminsaman.ir - Extracting return data for http://aminsaman.ir...
+2024-10-09 14:21:13,090 - INFO - Thread-http://aminsaman.ir - ====== WebDriver manager ======
+2024-10-09 14:21:15,217 - INFO - Thread-http://aminsaman.ir - Get LATEST chromedriver version for google-chrome
+2024-10-09 14:21:15,655 - INFO - Thread-http://aminsaman.ir - Get LATEST chromedriver version for google-chrome
+2024-10-09 14:21:16,050 - INFO - Thread-http://aminsaman.ir - Driver [C:\Users\lotus\.wdm\drivers\chromedriver\win64\129.0.6668.91\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-09 14:34:49,806 - INFO - MainThread - All data extraction processes completed.
+2024-10-09 14:36:46,746 - INFO - Thread-http://aminsaman.ir - Processing http://aminsaman.ir...
+2024-10-09 14:36:46,747 - INFO - Thread-http://aminsaman.ir - Extracting return data for http://aminsaman.ir...
+2024-10-09 14:36:46,747 - INFO - Thread-http://aminsaman.ir - ====== WebDriver manager ======
+2024-10-09 14:36:49,028 - INFO - Thread-http://aminsaman.ir - Get LATEST chromedriver version for google-chrome
+2024-10-09 14:36:49,445 - INFO - Thread-http://aminsaman.ir - Get LATEST chromedriver version for google-chrome
+2024-10-09 14:36:49,853 - INFO - Thread-http://aminsaman.ir - Driver [C:\Users\lotus\.wdm\drivers\chromedriver\win64\129.0.6668.91\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-09 14:37:13,923 - WARNING - Thread-http://aminsaman.ir - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/1dfa89bba854ba31f909137540afa645/element/f.09DC68C38335F7766C07A3AEB8FEDC07.d.9EE03B94E58D58E64F6B9F002851BBB9.e.573/text
+2024-10-09 14:37:17,952 - WARNING - Thread-http://aminsaman.ir - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014D5AA69890>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1dfa89bba854ba31f909137540afa645/element/f.09DC68C38335F7766C07A3AEB8FEDC07.d.9EE03B94E58D58E64F6B9F002851BBB9.e.573/text
+2024-10-09 14:37:24,695 - INFO - Thread-http://aminsaman.ir - Processing http://aminsaman.ir...
+2024-10-09 14:37:24,696 - INFO - Thread-http://aminsaman.ir - Extracting return data for http://aminsaman.ir...
+2024-10-09 14:37:24,696 - INFO - Thread-http://aminsaman.ir - ====== WebDriver manager ======
+2024-10-09 14:37:26,752 - INFO - Thread-http://aminsaman.ir - Get LATEST chromedriver version for google-chrome
+2024-10-09 14:37:27,192 - INFO - Thread-http://aminsaman.ir - Get LATEST chromedriver version for google-chrome
+2024-10-09 14:37:27,594 - INFO - Thread-http://aminsaman.ir - Driver [C:\Users\lotus\.wdm\drivers\chromedriver\win64\129.0.6668.91\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-09 14:40:06,368 - INFO - Thread-http://aminsaman.ir - Processing http://aminsaman.ir...
+2024-10-09 14:40:06,369 - INFO - Thread-http://aminsaman.ir - Extracting return data for http://aminsaman.ir...
+2024-10-09 14:40:06,369 - ERROR - Thread-http://aminsaman.ir - An error occurred while processing http://aminsaman.ir: 'AppManager' object has no attribute 'fundre'
+2024-10-09 14:40:06,372 - INFO - MainThread - All data extraction processes completed.
+2024-10-09 14:40:21,426 - INFO - Thread-http://aminsaman.ir - Processing http://aminsaman.ir...
+2024-10-09 14:40:21,427 - INFO - Thread-http://aminsaman.ir - Extracting return data for http://aminsaman.ir...
+2024-10-09 14:40:21,427 - ERROR - Thread-http://aminsaman.ir - An error occurred while processing http://aminsaman.ir: 'AppManager' object has no attribute 'fundre'
+2024-10-09 14:40:21,428 - INFO - MainThread - All data extraction processes completed.
+2024-10-09 14:40:49,806 - INFO - Thread-http://aminsaman.ir - Processing http://aminsaman.ir...
+2024-10-09 14:40:49,807 - INFO - Thread-http://aminsaman.ir - Extracting return data for http://aminsaman.ir...
+2024-10-09 14:40:49,807 - INFO - Thread-http://aminsaman.ir - ====== WebDriver manager ======
+2024-10-09 14:40:51,858 - INFO - Thread-http://aminsaman.ir - Get LATEST chromedriver version for google-chrome
+2024-10-09 14:40:52,314 - INFO - Thread-http://aminsaman.ir - Get LATEST chromedriver version for google-chrome
+2024-10-09 14:40:52,827 - INFO - Thread-http://aminsaman.ir - Driver [C:\Users\lotus\.wdm\drivers\chromedriver\win64\129.0.6668.91\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-09 14:42:08,743 - WARNING - Thread-http://aminsaman.ir - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/6e7c624a6c61e65e5c9f6b2be867f7d3/element/f.BD755E6BB8022CD5480DC1F7F2090F90.d.36C4AC7291884891E938EC386A71C1D8.e.5752/text
+2024-10-09 14:42:12,778 - WARNING - Thread-http://aminsaman.ir - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002118246E3D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6e7c624a6c61e65e5c9f6b2be867f7d3/element/f.BD755E6BB8022CD5480DC1F7F2090F90.d.36C4AC7291884891E938EC386A71C1D8.e.5752/text
+2024-10-09 14:42:19,171 - INFO - Thread-http://aminsaman.ir - Processing http://aminsaman.ir...
+2024-10-09 14:42:19,172 - INFO - Thread-http://aminsaman.ir - Extracting return data for http://aminsaman.ir...
+2024-10-09 14:42:19,173 - INFO - Thread-http://aminsaman.ir - ====== WebDriver manager ======
+2024-10-09 14:42:21,462 - INFO - Thread-http://aminsaman.ir - Get LATEST chromedriver version for google-chrome
+2024-10-09 14:42:21,923 - INFO - Thread-http://aminsaman.ir - Get LATEST chromedriver version for google-chrome
+2024-10-09 14:42:22,350 - INFO - Thread-http://aminsaman.ir - Driver [C:\Users\lotus\.wdm\drivers\chromedriver\win64\129.0.6668.91\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-09 14:43:31,045 - INFO - MainThread - All data extraction processes completed.
+2024-10-09 14:44:44,705 - INFO - Thread-http://aminsaman.ir - Processing http://aminsaman.ir...
+2024-10-09 14:44:44,706 - INFO - Thread-http://aminsaman.ir - Extracting return data for http://aminsaman.ir...
+2024-10-09 14:44:44,706 - INFO - Thread-http://aminsaman.ir - ====== WebDriver manager ======
+2024-10-09 14:44:46,769 - INFO - Thread-http://aminsaman.ir - Get LATEST chromedriver version for google-chrome
+2024-10-09 14:44:47,278 - INFO - Thread-http://aminsaman.ir - Get LATEST chromedriver version for google-chrome
+2024-10-09 14:44:47,686 - INFO - Thread-http://aminsaman.ir - Driver [C:\Users\lotus\.wdm\drivers\chromedriver\win64\129.0.6668.91\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-09 14:51:24,889 - INFO - Thread-http://aminsaman.ir - Processing http://aminsaman.ir...
+2024-10-09 14:51:24,890 - INFO - Thread-http://aminsaman.ir - Extracting return data for http://aminsaman.ir...
+2024-10-09 14:51:24,890 - INFO - Thread-http://aminsaman.ir - ====== WebDriver manager ======
+2024-10-09 14:51:27,487 - INFO - Thread-http://aminsaman.ir - Get LATEST chromedriver version for google-chrome
+2024-10-09 14:51:28,052 - INFO - Thread-http://aminsaman.ir - Get LATEST chromedriver version for google-chrome
+2024-10-09 14:51:28,478 - INFO - Thread-http://aminsaman.ir - Driver [C:\Users\lotus\.wdm\drivers\chromedriver\win64\129.0.6668.91\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-09 14:52:05,885 - INFO - MainThread - All data extraction processes completed.
+2024-10-09 17:30:16,718 - INFO - Thread-http://iafi.ir - Processing http://iafi.ir...
+2024-10-09 17:30:16,718 - INFO - Thread-http://iafi.ir - Fetching chart data for http://iafi.ir...
+2024-10-09 17:30:16,718 - INFO - Thread-http://iafi.ir - ====== WebDriver manager ======
+2024-10-09 17:30:19,024 - INFO - Thread-http://iafi.ir - Get LATEST chromedriver version for google-chrome
+2024-10-09 17:30:19,477 - INFO - Thread-http://iafi.ir - Get LATEST chromedriver version for google-chrome
+2024-10-09 17:30:19,889 - INFO - Thread-http://iafi.ir - Driver [C:\Users\lotus\.wdm\drivers\chromedriver\win64\129.0.6668.91\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-09 17:30:37,828 - INFO - MainThread - All data extraction processes completed.
+2024-10-09 17:31:59,508 - INFO - Thread-http://iafi.ir - Processing http://iafi.ir...
+2024-10-09 17:31:59,508 - INFO - Thread-http://iafi.ir - Fetching chart data for http://iafi.ir...
+2024-10-09 17:32:12,098 - INFO - MainThread - All data extraction processes completed.
+2024-10-09 17:36:00,128 - INFO - Thread-http://iafi.ir - Processing http://iafi.ir...
+2024-10-09 17:36:00,128 - INFO - Thread-http://iafi.ir - Fetching chart data for http://iafi.ir...
+2024-10-09 17:36:14,608 - INFO - MainThread - All data extraction processes completed.
+2024-10-09 17:43:56,350 - INFO - Thread-http://iafi.ir - Processing http://iafi.ir...
+2024-10-09 17:43:56,351 - INFO - Thread-http://iafi.ir - Fetching chart data for http://iafi.ir...
+2024-10-09 17:44:12,330 - INFO - MainThread - All data extraction processes completed.

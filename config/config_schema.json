@@ -1,0 +1,232 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "Settings": {
+            "type": "object",
+            "properties": {
+                "start_date": {
+                    "type": "array",
+                    "items": {
+                        "type": "integer"
+                    },
+                    "minItems": 3,
+                    "maxItems": 3
+                },
+                "concurrency": {
+                    "type": "integer"
+                },
+                "base_urls": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "url": {
+                                "type": "string"
+                            },
+                            "unwanted_urls": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string"
+                                }
+                            },
+                            "max_threads": {
+                                "type": "integer"
+                            },
+                            "task_class": {
+                                "type": "string"
+                            }
+                        },
+                        "required": ["url", "task_class"]
+                    }
+                }
+            },
+            "required": ["start_date", "concurrency", "base_urls"]
+        },
+        "Tasks": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "task_name": {
+                        "type": "string"
+                    },
+                    "task_class": {
+                        "type": "string"
+                    },
+                    "task_type": {
+                        "type": "string"
+                    },
+                    "active": {
+                        "type": "boolean"
+                    },
+                    "persist": {
+                        "type": "boolean"
+                    },
+                    "publish": {
+                        "type": "boolean"
+                    },
+                    "props": {
+                        "type": "object",
+                        "additionalProperties": {}
+                    }
+                },
+                "required": ["task_name", "task_class", "task_type", "active"]
+            }
+        },
+        "DataBase": {
+            "type": "object",
+            "properties": {
+                "db_type": {
+                    "type": "string",
+                    "enum": ["mongo", "postgresql", "mysql", "sqlite", "redis"]
+                },
+                "config": {
+                    "type": "object",
+                    "properties": {
+                        "MongoDB": {
+                            "type": "object",
+                            "properties": {
+                                "db_name": {
+                                    "type": "string"
+                                },
+                                "db_address": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": ["db_name", "db_address"]
+                        },
+                        "MySQL": {
+                            "type": "object",
+                            "properties": {
+                                "db_name": {
+                                    "type": "string"
+                                },
+                                "db_address": {
+                                    "type": "string"
+                                },
+                                "user": {
+                                    "type": "string"
+                                },
+                                "password": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": ["db_name", "db_address", "user", "password"]
+                        },
+                        "PostgreSQL": {
+                            "type": "object",
+                            "properties": {
+                                "db_name": {
+                                    "type": "string"
+                                },
+                                "db_address": {
+                                    "type": "string"
+                                },
+                                "user": {
+                                    "type": "string"
+                                },
+                                "password": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": ["db_name", "db_address", "user", "password"]
+                        },
+                        "SQLite": {
+                            "type": "object",
+                            "properties": {
+                                "db_name": {
+                                    "type": "string"
+                                },
+                                "db_address": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": ["db_name", "db_address"]
+                        },
+                        "Redis": {
+                            "type": "object",
+                            "properties": {
+                                "db_name": {
+                                    "type": "string"
+                                },
+                                "db_address": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": ["db_name", "db_address"]
+                        }
+                    },
+                    "anyOf": [
+                        { "required": ["MongoDB"] },
+                        { "required": ["MySQL"] },
+                        { "required": ["PostgreSQL"] },
+                        { "required": ["SQLite"] },
+                        { "required": ["Redis"] }
+                    ]
+                }
+            },
+            "required": ["db_type", "config"]
+        },
+        "MessageBroker": {
+            "type": "object",
+            "properties": {
+                "mb_type": {
+                    "type": "string",
+                    "enum": ["kafka", "rabbitmq"]
+                },
+                "config": {
+                    "type": "object",
+                    "properties": {
+                        "KafkaBroker": {
+                            "type": "object",
+                            "properties": {
+                                "bootstrap_servers": {
+                                    "type": "string"
+                                },
+                                "security_protocol": {
+                                    "type": "string",
+                                    "enum": ["PLAINTEXT", "SSL", "SASL_PLAINTEXT", "SASL_SSL"]
+                                },
+                                "schema_registry_url": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": ["bootstrap_servers", "security_protocol", "schema_registry_url"]
+                        },
+                        "RabbitMQBroker": {
+                            "type": "object",
+                            "properties": {
+                                "host": {
+                                    "type": "string"
+                                },
+                                "port": {
+                                    "type": "integer"
+                                },
+                                "username": {
+                                    "type": "string"
+                                },
+                                "password": {
+                                    "type": "string"
+                                },
+                                "virtual_host": {
+                                    "type": "string"
+                                },
+                                "queue": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": ["host", "port", "username", "password", "virtual_host", "queue"]
+                        }
+                    },
+                    "anyOf": [
+                        { "required": ["KafkaBroker"] },
+                        { "required": ["RabbitMQBroker"] }
+                    ]
+                }
+            },
+            "required": ["mb_type", "config"]
+        }
+    },
+    "required": ["Settings", "Tasks", "DataBase", "MessageBroker"]
+}
